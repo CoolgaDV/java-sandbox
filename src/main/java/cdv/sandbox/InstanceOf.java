@@ -8,6 +8,7 @@ public class InstanceOf {
     }
 
     private static void print(Object value) {
+        // According to bytecode all the magic is done via compiler
         if (value instanceof String string) {
             System.out.println("string: " + string.trim());
         }
