@@ -12,6 +12,7 @@ public class SwitchExpression {
 
     private static String convert(int value) {
         return switch (value) {
+            // Mixing ":" and "->" in the same switch is prohibited
             case 1 -> "one";
             case 2 -> {
                 System.out.println("...");
